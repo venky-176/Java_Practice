@@ -1,4 +1,4 @@
-package List;
+package CollectionPractice;
 
 import java.util.*;
 

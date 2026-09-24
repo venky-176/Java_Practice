@@ -5,6 +5,7 @@ public class Problem4 {
     static void main(String[] args) {
         List<Integer> l1= new ArrayList<>(Arrays.asList(3,4,5,2,3,4,8,7,3,9,1));
         List<Integer> Unique = new ArrayList<>();
+
         //l1.remove(Integer.valueOf(3));
         System.out.println(l1);
         for(int un: l1){

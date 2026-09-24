@@ -1,4 +1,4 @@
-package List;
+package CollectionPractice;
 import java.util.*;
 //size-no.of elements in a list; capacity-total memory of list
 public class VectorList {

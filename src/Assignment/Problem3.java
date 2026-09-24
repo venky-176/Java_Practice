@@ -4,6 +4,7 @@ public class Problem3 {
     //highest no.of duplicated element
     static void main(String[] args) {
         List<Integer> l1= new ArrayList<>(Arrays.asList(3,4,5,2,3,4,8,7,4,3,9,1));
+        List<Integer> asc= new ArrayList<>();
         Integer num1=null;
         int highest=0;
         for (int num:l1){

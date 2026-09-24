@@ -1,4 +1,4 @@
-package List;
+package CollectionPractice;
 import java.util.*;
 //Linkedlist implements List and deque interface. here deque extends queue interface
 //default size is 0, now we implement only List methods

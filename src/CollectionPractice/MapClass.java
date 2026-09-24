@@ -1,4 +1,4 @@
-package List;
+package CollectionPractice;
 
 import java.util.*;
 
@@ -16,6 +16,7 @@ import java.util.*;
 public class MapClass {
     static void main(String[] args) {
         Map<String, Integer> product = new HashMap<>();
+        //hashmap uses (array and nodes) internally to store elements.
         product.put("laptop",100);
         product.put("phones",500);
         product.put("headphones",250);
