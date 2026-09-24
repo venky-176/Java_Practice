@@ -1,0 +1,71 @@
+->Relationship and Usage Of JDK,JRE<JVM
+Development: Use the JDK to write, compile, and debug Java code.(Contains JRE)
+Deployment: Use the JRE to run Java applications on end-user machines. (Contains JVM)
+Execution: The JVM, part of both JRE and JDK, actually runs the Java program.
+
+->Wrapper classes in Java allow you to work with primitive data types as objects.
+They are particularly useful when working with generic collections or when using-
+features that require objects, such as Java Bean properties.they can store NULL values.
+
+-> Class can't be static, but it can be final and public.
+-> If class is final, then the methods can't be changed or override in subclasses.
+
+->Java is not a pure object-oriented language. While it incorporates many object-oriented programming (OOP) principles,
+it retains some elements from procedural programming.It has primitive data types, static variables,methods.
+
+-> We can't have local variables as static
+-> Outer class can't be private, but inner class can be.
+-> Object class is super class of all classes,
+
+-> Throwable is super class of all exceptions.
+
+-> Collections were introduced in java 1.2
+-> We can sort an arraylist by using Collection.sort():
+-> Iterable(I)-> Collection(Interface-I) -> List(I), Queue(I), Set(I)(extends
+-> List(I), Ordered elements, contains duplicates, random and index based access
+-> Set(I), Unordered elements, No duplicates, No index based access
+->Map belongs to Java Collections framework. Holds <Key,Value> pairs.
+-> List(I)Implements-> ArrayList(Cl), LinkedList(Cl), vector(C)ex->Stack.
+-> Set(I)extends->SortedSet(I) Implements TreeSet(I). Set(I)implements-> hashSet,LinkedHashSet(CL).
+-> HashMap(I) implements-> HashTable(CL),HashMap(CL),
+-> final is used to make methods, variables constant, finally is used in exception handling, finalize is used in garbage collection
+-> abstract Class contains both abstract and non abstract methods. We have constructor in abstract class.
+-> interface, We can achieve 100% abstraction, We don't have constructor in interface
+-> String(immutable, threadsafe,Synchronized, StringBuilder(non-thread safe, asSynchronized),StringBuffer(Mutable,threadsafe,Synchronized)
+-> Encapsulation is a grouping mechanism, we group all data into a single entity.
+
+-> Abstraction where we hide internal implementation details from the user and just giving relevant details.
+-> We can't create object for abstract class, but can have constructor
+-> Interface can't have both object and constructor
+
+
+OOPS
+-> Abstraction is a process of hiding implementation and showing only functionality.
+   eg:- Car driving, don't know how engine works, we only know to drive
+-> Inheritance Mechanism where one class acquires properties (fields and methods) of another.
+   eg:- Child inherits assets from parents
+-> Encapsulation Mechanism where one class acquires properties (fields and methods) of another.(focus on hiding data)
+    Wrapping data (variables) and code (methods) together as a single unit.
+   eg:- ATM we can't directly change balance, we use deposit and withdraw to change balance
+-> Polymorphism: Means many forms
+   eg:- each person behaves differently different occassion. or car can drive in eco or sport or city
+
+
+-> interface is a blueprint of a class.
+
+Exception is a event which disrupts the flow of a program or instructions.
+
+This keyword is used to access instance variables at class level.
+we can use this keyword in non static blocks, constructors, abstract classes and interfaces
+"this" keyword is used in java to refer to current object or current class.
+
+-> We can't use super in static methods, but we can get methods from static methods through super.
+-> the constructor in parent class will execute when object of child class execute.
+
+-> constructor is a block of code We call while creating an Instance(object) of class.
+-> An array is a collection of elements of the same data type.
+-> String in Java is an object that represents a sequence of characters.
+
+
+
+
