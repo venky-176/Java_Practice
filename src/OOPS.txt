@@ -1,0 +1,9 @@
+-> Class is a blueprint or template for an object. logical representation of things.It defines properties and attributes
+   an object should have
+-> Object is physical representation of class. Object is an instance of a class.
+-> Object class is a super class of java.
+-> Encapsulation is wrapping of data and methods together as a single unit.
+-> Inheritance: Acquiring properties of parent class into a child class.
+-> polymorphism: having multiple forms of methods.
+-> Static is  keyword in java used for memory management. static belongs to class rather than object.
+ -> package is collection of classes and interfaces.

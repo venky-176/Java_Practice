@@ -3,6 +3,8 @@ package Encapsulation;
 public class BankAccount {
     private int accno;
     private int balance;
+    private static int cp=987;
+    public int getter(){return cp;}
 public void setacc(int acc){
     this.accno=acc;
 }

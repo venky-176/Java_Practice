@@ -6,7 +6,7 @@ public class SetPractice {
         //Hashset uses hashmap to store internally and doesn't follow insertion order
         //LinkedHashSet follows insertion order and it follows linked hash map to add elements
         //TreeSet it follows TreeMap and the elements will be in sorted order
-        //TreeSet methods are poll() to delete first(),last() 
+        //TreeSet methods are poll() to delete first(),last()
         HashSet<Integer> hs = new HashSet<>();
         hs.add(8);
         hs.add(6);

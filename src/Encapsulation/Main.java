@@ -5,6 +5,11 @@ public class Main {
         BankAccount bk=new BankAccount();
         bk.setacc(1332341);
         bk.setBalance(10000);
+        System.out.println(bk.getter());
+        int a= bk.getter();
+        a+=87;
+        System.out.println(a+"---"+bk.getter());
+        System.out.println(bk.getter());
         System.out.println("Account number:"+bk.getAccno());
         System.out.println("balance: "+bk.getBalance());
         bk.deposit(5000);
