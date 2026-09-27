@@ -21,11 +21,11 @@ it retains some elements from procedural programming.It has primitive data types
 
 -> Collections were introduced in java 1.2
 -> We can sort an arraylist by using Collection.sort():
--> Iterable(I)-> Collection(Interface-I) -> List(I), Queue(I), Set(I)(extends
--> List(I), Ordered elements, contains duplicates, random and index based access
+-> Iterable(I)-> Collection(Interface-I) -> list(I), Queue(I), Set(I)(extends
+-> list(I), Ordered elements, contains duplicates, random and index based access
 -> Set(I), Unordered elements, No duplicates, No index based access
 ->Map belongs to Java Collections framework. Holds <Key,Value> pairs.
--> List(I)Implements-> ArrayList(Cl), LinkedList(Cl), vector(C)ex->Stack.
+-> list(I)Implements-> ArrayList(Cl), LinkedList(Cl), vector(C)ex->Stack.
 -> Set(I)extends->SortedSet(I) Implements TreeSet(I). Set(I)implements-> hashSet,LinkedHashSet(CL).
 -> HashMap(I) implements-> HashTable(CL),HashMap(CL),
 -> final is used to make methods, variables constant, finally is used in exception handling, finalize is used in garbage collection
