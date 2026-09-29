@@ -5,9 +5,13 @@
  */
 public class Constructor{
     public int i;
+     void print(){
+        System.out.println("inside aclass method");
+    }
     static void main(String[] args) {
         Constructor cp= new Constructor();
         System.out.println(cp.i);
+        cp.print();
         Demo dem= new Demo();
         dem.get_mess();
     }
