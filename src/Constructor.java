@@ -8,8 +8,12 @@ public class Constructor{
      void print(){
         System.out.println("inside aclass method");
     }
+    static  void println(){
+        System.out.println("static method");
+    }
     static void main(String[] args) {
         Constructor cp= new Constructor();
+        cp.println();
         System.out.println(cp.i);
         cp.print();
         Demo dem= new Demo();

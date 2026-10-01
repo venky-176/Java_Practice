@@ -2,6 +2,7 @@ package Interface;
 // interface is a blueprint of a class.
 //till java7 interface can have only methods but not how it works
 // after java8 we can implement methods in interface with default or static methods.
+//varia
 public interface Laptop {
 public void copy();
     static void audio(){

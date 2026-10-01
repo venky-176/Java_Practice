@@ -1,4 +1,4 @@
-->Relationship and Usage Of JDK,JRE<JVM
+->Relationship and Usage Of JDK,JRE,JVM
 Development: Use the JDK to write, compile, and debug Java code.(Contains JRE)
 Deployment: Use the JRE to run Java applications on end-user machines. (Contains JVM)
 Execution: The JVM, part of both JRE and JDK, actually runs the Java program.
@@ -63,8 +63,12 @@ we can use this keyword in non static blocks, constructors, abstract classes and
 -> the constructor in parent class will execute when object of child class execute.
 
 -> constructor is a block of code We call while creating an Instance(object) of class.
+-> We can't override a constructor in java, but we can overload a constructor in java.
+
 -> An array is a collection of elements of the same data type.
 -> String in Java is an object that represents a sequence of characters.
+
+-> variables declared inside a interface are public static final
 
 
 
