@@ -48,7 +48,7 @@ OOPS
     Wrapping data (variables) and code (methods) together as a single unit.
    eg:- ATM we can't directly change balance, we use deposit and withdraw to change balance
 -> Polymorphism: Means many forms
-   eg:- each person behaves differently different occassion. or car can drive in eco or sport or city
+   eg:- each person behaves differently different occasion. or car can drive in eco or sport or city
 
 
 -> interface is a blueprint of a class.
