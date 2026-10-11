@@ -28,6 +28,19 @@ it retains some elements from procedural programming.It has primitive data types
 -> list(I)Implements-> ArrayList(Cl), LinkedList(Cl), vector(C)ex->Stack.
 -> Set(I)extends->SortedSet(I) Implements TreeSet(I). Set(I)implements-> hashSet,LinkedHashSet(CL).
 -> HashMap(I) implements-> HashTable(CL),HashMap(CL),
+
+-> Arraylist uses dynamic array to store elements. getting element is easy cause of index O(1), insertion and deletion is
+   cause you need to change the whole array O(n)
+-> LinkedList uses double linked nodes to store elements. So the insertion and deletion is easy getting an element O(n).
+-> HashSet uses HashMap internally to store unique elements, where hashmap uses hashcode() to find the bucket to store
+   element as key. if 2 numbers got the same bucket then the Hashmap.node will be used to store the elements as key value 'present' as objects value.
+-> HashMap uses key-value pairs to store elements, and uses buckets and nodes to store elements.
+   each node contains(hash, key, value, next) uses hashcode to get hash
+
+
+
+
+
 -> final is used to make methods, variables constant, finally is used in exception handling, finalize is used in garbage collection
 -> abstract Class contains both abstract and non abstract methods. We have constructor in abstract class.
 -> interface, We can achieve 100% abstraction, We don't have constructor in interface
@@ -70,6 +83,7 @@ we can use this keyword in non static blocks, constructors, abstract classes and
 
 -> variables declared inside a interface are public static final
 
-
+-> String is sequence of characters and it's a class in java but considered as a literal because of its unique behaviour.
+->
 
 

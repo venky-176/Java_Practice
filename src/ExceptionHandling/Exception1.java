@@ -14,10 +14,14 @@ public class Exception1 {
         int res=0;
         try {
             res=a/b;
-        } catch (ArithmeticException ae) {
+        }
+//        catch(Exception e){
+//            System.out.println("Exception class");
+//        }
+        catch (ArithmeticException ae) {
             System.out.println(ae.toString());
-            //throw ae;
-        }finally {
+            //throw ae;       }
+        } finally {
             // it executes whether there's a exception or not
             System.out.println("finally block");
         }

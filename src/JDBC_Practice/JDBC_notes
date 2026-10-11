@@ -1,0 +1,13 @@
+JDBC is a Java API(Application Program Interface) which is used connecting and interacting with databases.
+there are 4 components in java:
+1. DriverManager Class, 2. Connection interface 3. statement and Prepared Statement interfaces 4. ResultSet interface
+
+
+-> There are mainly 7 steps for JDBC
+1. import the packages(java.SQL.*)
+2. load and register the driver
+3. Establish the connection
+4. create the statement-> statement, prepared statement, callable statement
+5. execute the query
+6.process the result
+7. close the connection
